@@ -621,7 +621,7 @@ footer p :nth-child(2) {
 
 @media (max-width:800px) {
     main::before {
-        height: 97.5vh;
+        height: 95.5vh;
     }
 
     main nav ul {
