@@ -620,7 +620,7 @@ footer p :nth-child(2) {
 }
 
 @media (max-width:800px) {
-    main {
+    main::before {
         height: 97.5vh;
     }
 
