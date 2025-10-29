@@ -213,7 +213,7 @@ offers .head{
     cursor: pointer;
 }
 
-.offers .card:hover{
+.offers .card img:hover{
     transition: 0.4s ease-in;
     transform: scale(1.1);
 }
