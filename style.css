@@ -654,8 +654,10 @@ footer p :nth-child(2) {
     }
 
     header a {
-        padding: 5px 5px;
+        padding: 10px 10px;
         margin-top: 10px;
+        border-radius: 10px;
+        background-color: #e4b95b;
     }
 
     .history .content p {
