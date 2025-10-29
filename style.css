@@ -42,8 +42,6 @@ main nav {
     align-items: start;
     gap: 50%;
     padding: 10px 40px;
-    top: 0;
-    position: sticky;
 }
 
 nav img {
@@ -501,7 +499,7 @@ offers .head {
     padding-bottom: 10px;
 }
 
-.restaurant-information .address p i{
+.restaurant-information .address p i {
     color: #e4b95b;
 }
 
@@ -592,7 +590,7 @@ offers .head {
     text-transform: capitalize;
 }
 
-.contact-form form a{
+.contact-form form a {
     padding: 10px 15px;
     color: white;
     text-transform: uppercase;
@@ -605,63 +603,73 @@ offers .head {
 }
 
 
-footer{
+footer {
     background-color: #383848;
     padding: 20px;
     text-align: center;
     color: white;
 }
 
-footer p :nth-child(1){
+footer p :nth-child(1) {
     text-transform: capitalize;
 }
 
-footer p :nth-child(2){
+footer p :nth-child(2) {
     text-transform: uppercase;
     font-weight: bold;
 }
 
-@media  (max-width:800px){
-    main nav{
-        display: flex;
-    }
-
+@media (max-width:800px) {
     main nav ul {
+        box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.089);
+        background-color: rgba(255, 255, 255, 0.089);
+        width: 50%;
+        padding: 20px;
+        margin-left: 25%;
         display: flex;
         flex-direction: column;
-        justify-content: end;
-        align-items: end;
-        margin-left: 80%;
-        padding-top: 10%;
+        justify-content: center;
+        align-items: center;
+
     }
 
-    nav img{
-       display: none;
-    }
-
-    header h1{
-        font-size: 18px;
-    }
-    header p{
-        font-size: 13px;
-    }
-
-    header a{
-        padding: 5px 5px;
-        margin-top: 10px;
-    }
-
-    .history .content p{
-        font-size: 14px;
-    }
-
-    .history .content-parent img{
+    nav img {
         display: none;
     }
 
-    .history .content a{
+    header {
+        margin-top: 10px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    header p {
+        font-size: 11px;
+    }
+
+    header a {
+        padding: 5px 5px;
+        margin-top: 30px;
+    }
+
+    .history .content p {
+        font-size: 10px;
+    }
+
+    .history .titles h1 {
+        font-size: 28px;
+    }
+
+    .history .content-parent img {
+        display: none;
+    }
+
+    .history .content a {
         padding: 5px;
     }
+
 
     .offers .container {
         display: flex;
@@ -670,8 +678,96 @@ footer p :nth-child(2){
         align-items: center;
     }
 
-    .offers .container .card img{
-        padding-right: 50%;
-        
+    .offers .container .card img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding-right: 10%;
     }
+
+    .offers .container .card .content-1{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offers .container .card .content-1 p{
+        display: none;
+    }
+
+    .container-menu .right{
+        display: none;
+    }
+
+    .container-menu .left .menu-card img{
+        margin-left: 10px;
+    }
+
+    .container-menu .left .menu-card .name-price h4{
+        font-size: 15px;
+    }
+    .container-menu .left .menu-card .name-price h4 span{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .container-menu .left .menu-card .name-price p{
+        font-size: 12px;
+    }
+
+    .container-menu .left .menu-card img{
+        width: 15%;
+    }
+
+    .btn-menu a{
+        font-size:10px;
+        padding: 5px 5px;
+        width: 50%;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 110vh;
+    }
+
+    .services .card{
+        margin-bottom: 20px;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        height: 180vh;
+        padding-bottom: 40px;
+    }
+
+    .gallery .image-removed{
+        display: none;
+    }
+
+    .contact-information{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-information .restaurant-information P{
+        font-size: 10PX;
+    }
+
+    .contact-information .contact-form form input{
+        width: 80%;
+    }
+
+    .contact-form form textarea{
+        width: 80%;
+    }
+
+    .contact-information .contact-form form a{
+        width: 80%;
+    }
+
 }
