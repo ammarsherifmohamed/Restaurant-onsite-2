@@ -27,7 +27,7 @@ main::before {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgb(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.514);
 }
 
 main * {
@@ -164,22 +164,21 @@ header a:hover {
     text-align: center;
 }
 
-.offers{
-    background: url(./images/offer-background.jpg)
-    no-repeat center / cover;
+.offers {
+    background: url(./images/offer-background.jpg) no-repeat center / cover;
     height: 100vh;
-    margin-top: 6%; 
+    margin-top: 6%;
     overflow-x: hidden;
 }
 
-offers .head{
+offers .head {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.offers .head >h1{
-    color:#e4b95b;
+.offers .head>h1 {
+    color: #e4b95b;
     font-weight: bold;
     text-transform: capitalize;
     text-align: center;
@@ -189,7 +188,7 @@ offers .head{
     flex-direction: column;
 }
 
-.offers .head .heading{
+.offers .head .heading {
     color: rgba(255, 255, 255, 0.801);
     font-weight: 400;
     text-transform: capitalize;
@@ -200,49 +199,49 @@ offers .head{
     flex-direction: column;
 }
 
-.offers .container{
+.offers .container {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
 }
 
-.offers .card{
-    box-shadow: 2px 0 10px rgba(39, 35, 35, 0) ;
-    width:35% ;
+.offers .card {
+    box-shadow: 2px 0 10px rgba(39, 35, 35, 0);
+    width: 35%;
     padding: 10px;
     cursor: pointer;
 }
 
-.offers .card img:hover{
+.offers .card img:hover {
     transition: 0.4s ease-in;
     transform: scale(1.1);
 }
 
-.offers .card img{
+.offers .card img {
     width: 220px;
     border-radius: 15px;
     margin-left: 25%;
 }
 
-.offers .content-1{
+.offers .content-1 {
     text-align: center;
 }
 
-.offers .card h3{
+.offers .card h3 {
     color: rgba(255, 255, 255, 0.842);
     text-transform: capitalize;
     text-align: center;
     font-weight: bold;
     letter-spacing: 1px;
     margin-top: 30px;
-    
+
 }
 
-.all-menu{
+.all-menu {
     background-color: #eee;
 }
 
-.menu-content{
+.menu-content {
     text-align: center;
     text-transform: capitalize;
     padding-top: 50px;
@@ -253,7 +252,7 @@ offers .head{
     color: rgba(0, 0, 0, 0.767);
 }
 
-.menu-content p{
+.menu-content p {
     margin-top: 10px;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.678);
@@ -261,24 +260,24 @@ offers .head{
 }
 
 
-.container .card .content-1{
+.container .card .content-1 {
     color: rgba(255, 255, 255, 0.842);
-    
+
 }
 
-.container-menu{
+.container-menu {
     display: flex;
     justify-content: space-around;
 }
 
-.container .card .price{
+.container .card .price {
     text-align: center;
     margin-top: 20px;
     color: white;
     font-weight: 500;
 }
 
-.container .card .price span{
+.container .card .price span {
     color: #e4b95b;
     padding-left: 10px;
 }
@@ -287,10 +286,11 @@ offers .head{
 .container-menu {
     display: flex;
     flex-direction: row;
-    background-color: #eee;;
+    background-color: #eee;
+    ;
 }
 
-.title-menu{
+.title-menu {
     margin-top: 2%;
     padding: 1%;
     letter-spacing: 0.5px;
@@ -300,20 +300,20 @@ offers .head{
 }
 
 
-.left .menu-card{
+.left .menu-card {
     display: flex;
     margin-bottom: 6%;
 }
 
 
-.left .menu-card .name-price{
+.left .menu-card .name-price {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-top: 1%;
 }
 
-.left .menu-card .name-price h4{
+.left .menu-card .name-price h4 {
     margin-bottom: 3%;
     padding-bottom: 10px;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.356);
@@ -322,39 +322,39 @@ offers .head{
     color: rgba(0, 0, 0, 0.808);
 }
 
-.left .menu-card .name-price h4 span{
+.left .menu-card .name-price h4 span {
     color: #e4b95b;
     font-weight: bold;
     display: flex;
     justify-content: end;
 }
 
-.left .menu-card .name-price p{
+.left .menu-card .name-price p {
     padding-bottom: 6px;
 }
 
-.right{
+.right {
     margin-left: 5%;
 }
 
-.right .menu-card{
+.right .menu-card {
     display: flex;
     margin-bottom: 6%;
 }
 
-.right .menu-card img{
+.right .menu-card img {
     width: 100px;
     border-radius: 50%;
 }
 
-.right .menu-card .name-price{
+.right .menu-card .name-price {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-top: 1%;
 }
 
-.right .menu-card .name-price h4{
+.right .menu-card .name-price h4 {
     margin-bottom: 3%;
     padding-bottom: 10px;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.356);
@@ -363,25 +363,25 @@ offers .head{
     color: rgba(0, 0, 0, 0.808);
 }
 
-.right .menu-card .name-price h4 span{
+.right .menu-card .name-price h4 span {
     display: flex;
     justify-content: end;
     color: #e4b95b;
     font-weight: bold;
 }
 
-.right .menu-card .name-price p{
+.right .menu-card .name-price p {
     padding-bottom: 6px;
 }
 
-.btn-menu{
+.btn-menu {
     display: flex;
     justify-content: center;
     margin-top: 3%;
     margin-bottom: 5%;
 }
 
-.btn-menu a{
+.btn-menu a {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
@@ -393,11 +393,11 @@ offers .head{
     border: none;
     padding: 10px 20px;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
 
-.services{
+.services {
     background: url(./images/daytime_bg.jpeg) center center /cover;
     height: 35vh;
     display: flex;
@@ -407,7 +407,7 @@ offers .head{
 }
 
 
-.services .card{
+.services .card {
     color: white;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -415,25 +415,25 @@ offers .head{
     text-align: center;
 }
 
-.services .card h3{
+.services .card h3 {
     padding-top: 10px;
     text-transform: capitalize;
     font-size: 30px;
 }
 
-.services .card p{
+.services .card p {
     font-weight: 500;
     padding-top: 10px;
 }
 
-.gallery{
+.gallery {
     background: url(./images/offer-background.jpg) center center / cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-.gallery h2{
+.gallery h2 {
     color: white;
     text-transform: capitalize;
     text-align: center;
@@ -442,7 +442,7 @@ offers .head{
     margin-bottom: 40px;
 }
 
-.images{
+.images {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -450,7 +450,7 @@ offers .head{
     gap: 30px;
 }
 
-.img{
+.img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -458,7 +458,7 @@ offers .head{
     gap: 30px;
 }
 
-.gallery img{
+.gallery img {
     width: 250px;
     height: 200px;
     border-radius: 20px;
@@ -466,7 +466,7 @@ offers .head{
     opacity: 0.8;
 }
 
-.gallery .img img{
+.gallery .img img {
     width: 250px;
     height: 200px;
     border-radius: 20px;
@@ -474,7 +474,204 @@ offers .head{
     opacity: 0.8;
 }
 
-.gallery img:hover{
+.gallery img:hover {
     transition: 0.2s ease-in-out;
     transform: scale(1.2);
+}
+
+
+.contact-information {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.restaurant-information .address h2 {
+    color: rgba(0, 0, 0, 0.925);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-bottom: 30px;
+}
+
+.restaurant-information .address p {
+    color: rgba(0, 0, 0, 0.568);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+
+.restaurant-information .address p i{
+    color: #e4b95b;
+}
+
+.restaurant-information .working-hours {
+    margin-top: 3%;
+    margin-bottom: 20px;
+}
+
+.restaurant-information .working-hours h2 {
+    color: rgba(0, 0, 0, 0.925);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-bottom: 20px;
+}
+
+
+.restaurant-information .working-hours p {
+    color: rgba(0, 0, 0, 0.568);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+
+.restaurant-information .links {
+    margin-top: 3%;
+    margin-bottom: 30px;
+}
+
+.restaurant-information .links h2 {
+    color: rgba(0, 0, 0, 0.925);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+
+}
+
+.restaurant-information .links .icons {
+    display: flex;
+    font-size: 40px;
+    margin-right: 10%;
+}
+
+.contact-information {
+    display: flex;
+    gap: 20%;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contact-form form input {
+    padding: 20px 10px;
+    width: 250%;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.74);
+    background-color: rgb(222, 223, 224);
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+
+.contact-form form input::placeholder {
+    color: gray;
+    text-transform: capitalize;
+}
+
+.contact-form form textarea {
+    padding: 20px 10px;
+    width: 250%;
+    height: 140px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.74);
+    background-color: rgb(222, 223, 224);
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contact-form form textarea::placeholder {
+    color: gray;
+    text-transform: capitalize;
+}
+
+.contact-form form a{
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: 2px solid #e4b95b;
+    background-color: #e4b95b;
+    border-radius: 15px;
+}
+
+
+footer{
+    background-color: #383848;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer p :nth-child(1){
+    text-transform: capitalize;
+}
+
+footer p :nth-child(2){
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media  (max-width:800px){
+    main nav{
+        display: flex;
+    }
+
+    main nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        margin-left: 80%;
+        padding-top: 10%;
+    }
+
+    nav img{
+       display: none;
+    }
+
+    header h1{
+        font-size: 18px;
+    }
+    header p{
+        font-size: 13px;
+    }
+
+    header a{
+        padding: 5px 5px;
+        margin-top: 10px;
+    }
+
+    .history .content p{
+        font-size: 14px;
+    }
+
+    .history .content-parent img{
+        display: none;
+    }
+
+    .history .content a{
+        padding: 5px;
+    }
+
+    .offers .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offers .container .card img{
+        padding-right: 50%;
+        
+    }
 }
