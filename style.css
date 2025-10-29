@@ -620,8 +620,8 @@ footer p :nth-child(2) {
 }
 
 @media (max-width:800px) {
-    main{
-    height: 100vh;
+    main {
+        height: 100vh;
     }
 
     main nav ul {
@@ -684,96 +684,131 @@ footer p :nth-child(2) {
 
 
     .offers .container .card img {
-    width: 115px;
+        width: 115px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: 0.5%;
     }
 
-    .offers .container .card .content-1{
+    .offers .container .card .content-1 {
         margin-left: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .offers .container .card .content-1 p{
+    .offers .container .card .content-1 p {
         display: none;
     }
 
-    .container-menu .right{
+    .container-menu .right {
         display: none;
     }
 
-    .container-menu .left .menu-card img{
+    .container-menu .left .menu-card img {
         margin-left: 10px;
     }
 
-    .container-menu .left .menu-card .name-price h4{
+    .container-menu .left .menu-card .name-price h4 {
         font-size: 15px;
     }
-    .container-menu .left .menu-card .name-price h4 span{
+
+    .container-menu .left .menu-card .name-price h4 span {
         font-size: 12px;
         margin-right: 20px;
     }
 
-    .container-menu .left .menu-card .name-price p{
+    .container-menu .left .menu-card .name-price p {
         font-size: 12px;
     }
 
-    .container-menu .left .menu-card img{
+    .container-menu .left .menu-card img {
         width: 15%;
     }
 
-    .btn-menu a{
-        font-size:10px;
+    .btn-menu a {
+        font-size: 10px;
         padding: 5px 5px;
         width: 50%;
     }
 
-    .services{
+    .services {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 110vh;
+        height: 130vh;
     }
 
-    .services .card{
+    .services .card {
         margin-bottom: 20px;
     }
-    .gallery{
+
+    .gallery {
         display: flex;
         flex-direction: column;
-        height: 180vh;
+        height: 200vh;
         padding-bottom: 40px;
     }
 
-    .gallery .image-removed{
+    .gallery .image-removed {
         display: none;
     }
 
-    .contact-information{
+    .contact-information {
         display: flex;
         flex-direction: column;
     }
 
-    .contact-information .restaurant-information P{
+    .contact-information .restaurant-information P {
         font-size: 10PX;
     }
 
-    .contact-information .contact-form form input{
+    .contact-information .contact-form form input {
         width: 80%;
     }
 
-    .contact-form form textarea{
+    .contact-form form textarea {
         width: 80%;
     }
 
-    .contact-information .contact-form form a{
+    .contact-information .contact-form form a {
         width: 80%;
     }
 
+}
+
+
+@media (max-width:530px) {
+    .offers .container .card img {
+        margin-left: 10px;
+    }
+
+    .services {
+        height: 200vh;
+    }
+
+    .gallery {
+        height: 250vh;
+    }
+
+    .offers .container .card img {
+        margin-left: 5%;
+    }
+
+
+}
+
+@media (min-width:768px) {
+    .offers .container .card img {
+        width: 200px;
+        margin-left: 27%;
+    }
+
+    .gallery {
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+    }
 }
