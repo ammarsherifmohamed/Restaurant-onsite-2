@@ -621,7 +621,7 @@ footer p :nth-child(2) {
 
 @media (max-width:800px) {
     main::before {
-        height: 95.5vh;
+        height: 97.5vh;
     }
 
     main nav ul {
@@ -786,11 +786,11 @@ footer p :nth-child(2) {
     }
 
     .services {
-        height: 200vh;
+        /* height: 200vh; */
     }
 
     .gallery {
-        /* height: 250vh; */
+        height: 250vh;
     }
 
     .offers .container .card img {
