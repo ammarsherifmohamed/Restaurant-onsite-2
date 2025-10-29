@@ -748,7 +748,7 @@ footer p :nth-child(2) {
     .gallery {
         display: flex;
         flex-direction: column;
-        height: 200vh;
+        /* height: 200vh; */
         padding-bottom: 40px;
     }
 
@@ -786,11 +786,11 @@ footer p :nth-child(2) {
     }
 
     .services {
-        /* height: 200vh; */
+        height: 200vh;
     }
 
     .gallery {
-        /* height: 250vh; */
+        height: 250vh;
     }
 
     .offers .container .card img {
