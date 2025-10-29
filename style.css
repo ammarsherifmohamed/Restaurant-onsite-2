@@ -169,7 +169,7 @@ header a:hover {
     overflow-x: hidden;
 }
 
-offers .head {
+.offers .head {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -216,9 +216,9 @@ offers .head {
 }
 
 .offers .card img {
-    width: 220px;
+    width: 200px;
     border-radius: 15px;
-    margin-left: 25%;
+    margin-left: 27%;
 }
 
 .offers .content-1 {
@@ -682,12 +682,14 @@ footer p :nth-child(2) {
         align-items: center;
     }
 
+
     .offers .container .card img {
+    width: 115px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 0;
-        padding-right: 10%;
+        justify-content: center;
+        margin-left: 0.5%;
     }
 
     .offers .container .card .content-1{
