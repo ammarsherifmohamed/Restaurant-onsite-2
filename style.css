@@ -876,7 +876,7 @@ footer p :nth-child(2) {
     }
 
     .gallery {
-        height: 210vh;
+        height: 240vh;
         display: flex;
         gap: 50px;
     }
