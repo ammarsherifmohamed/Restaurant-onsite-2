@@ -895,11 +895,12 @@ footer p :nth-child(2) {
     }
 
     main nav ul li a {
-        font-size: 11px;
+        font-size: 10px;
     }
 
-    main nav ul li a {
-        font-size: 9px;
+
+    header{
+        margin-top: 60%;
     }
 
     .offers .container .card img {
@@ -911,13 +912,13 @@ footer p :nth-child(2) {
     }
 
     .services {
-        height: 150vh;
+        height: 120vh;
         display: flex;
         gap: 50px;
     }
 
     .gallery {
-        height: 220vh;
+        height: 200vh;
         display: flex;
         gap: 50px;
     }
