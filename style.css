@@ -619,6 +619,8 @@ footer p :nth-child(2) {
     font-weight: bold;
 }
 
+
+
 @media (max-width:800px) {
     main::before {
         height: 100h;
@@ -627,14 +629,16 @@ footer p :nth-child(2) {
     main nav ul {
         box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.089);
         background-color: rgba(255, 255, 255, 0.089);
-        width: 50%;
+        width: 100%;
         padding: 20px;
-        margin-left: 25%;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
 
+    }
+
+    main nav ul li a {
+        font-size: 11px;
     }
 
     nav img {
@@ -642,7 +646,10 @@ footer p :nth-child(2) {
     }
 
     header {
-        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30%;
     }
 
     header h1 {
@@ -727,6 +734,7 @@ footer p :nth-child(2) {
 
     .container-menu .left .menu-card img {
         width: 15%;
+        object-fit: cover;
     }
 
     .btn-menu a {
@@ -740,7 +748,7 @@ footer p :nth-child(2) {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 110vh;
+        height: 100vh;
     }
 
     .services .card {
@@ -781,32 +789,55 @@ footer p :nth-child(2) {
 }
 
 
-@media (max-width:530px) {
-    .offers .container .card img {
-        margin-left: 10px;
-    }
-
-
-    .gallery {
-        height: 175vh;
-    }
-
-    .offers .container .card img {
-        margin-left: 5%;
-    }
-
-
-}
 
 @media (min-width:768px) {
-    .offers .container .card img {
-        width: 200px;
+    .offers .card img {
         margin-left: 27%;
+    }
+    
+    .services{
+        /* height: 100vh; */
     }
 
     .gallery {
-        height: 120vh;
+        /* height: 170vh; */
         display: flex;
         flex-direction: column;
     }
 }
+
+
+        @media (max-width:530px) {
+            main nav ul {
+                box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.089);
+                background-color: rgba(255, 255, 255, 0.089);
+                padding: 10px;
+                gap:30px;
+            }
+        
+            main nav ul li a {
+                font-size: 11px;
+            }
+            main nav ul li a{
+                font-size: 9px;
+            }
+        
+            .offers .container .card img {
+                margin-left: 10px;
+            }
+        
+            .services{
+                height: 170vh;
+            }
+        
+            .gallery {
+                height: 250vh;
+            }
+        
+            .offers .container .card img {
+                margin-left: 5%;
+            }
+        
+        
+        }
+
